@@ -1,5 +1,5 @@
-FROM million12/centos-supervisor:latest
-MAINTAINER Marcin Ryzycki marcin@m12.io, Przemyslaw Ozgo linux@ozgo.info
+FROM carqualifier/docker-centos-supervisor:latest
+MAINTAINER Marcin Ryzycki marcin@m12.io, Przemyslaw Ozgo linux@ozgo.info, Faruk Brbovic fbrbovic@carqualifier.com
 
 RUN \
   rpm -Uvh http://nginx.org/packages/centos/7/noarch/RPMS/nginx-release-centos-7-0.el7.ngx.noarch.rpm && \
